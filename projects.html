@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Проекты — Минимализм</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <div id="preloader">
+    <div class="preloader-content">
+      <img src="public/images/logo.png" alt="Логотип" class="preloader-logo">
+      <div class="preloader-title">Цветков Studio</div>
+    </div>
+  </div>
+  <header class="header-min">
+    <div class="logo-left-top">
+      <a href="index.html"><img src="public/images/logo.png" alt="Логотип" class="logo-img"></a>
+    </div>
+    <nav class="footer-filters-menu" style="margin-bottom: 0;">
+      <button class="footer-filter-btn active" data-filter="all">Все проекты</button>
+      <button class="footer-filter-btn" data-filter="residential">Жилые интерьеры</button>
+      <button class="footer-filter-btn" data-filter="public">Общественные</button>
+      <button class="footer-filter-btn" data-filter="architecture">Архитектура</button>
+    </nav>
+  </header>
+
+  <div class="page-content">
+    <main>
+      <div class="cards-min">
+        <div class="card-min" data-category="residential">
+          <div class="card-min-img-wrap">
+            <img class="card-min-img" src="public/images/inter1.jpg" alt="Жилой интерьер">
+            <a href="inter-gallery.html" class="card-min-overlay">
+              <span class="card-min-label">Жилой интерьер</span>
+            </a>
+          </div>
+        </div>
+        <div class="card-min" data-category="public">
+          <div class="card-min-img-wrap">
+            <img class="card-min-img" src="public/images/ofis1.jpg" alt="Офис будущего">
+            <a href="ofis-gallery.html" class="card-min-overlay">
+              <span class="card-min-label">Офис</span>
+            </a>
+          </div>
+        </div>
+        <div class="card-min" data-category="architecture">
+          <div class="card-min-img-wrap">
+            <img class="card-min-img" src="public/images/arh1.jpg" alt="Загородный дом">
+            <a href="arh-gallery.html" class="card-min-overlay">
+              <span class="card-min-label">Загородный дом</span>
+            </a>
+          </div>
+        </div>
+      </div>
+    </main>
+  </div>
+
+  <footer class="footer-adept">
+    <div class="footer-adept-col">
+      <div>8 999 999 99 99</div>
+      <div>igortop@mail.ru</div>
+    </div>
+    <div class="footer-adept-col">
+      <div>Малый пр. В.о.  62</div>
+      <div>Санкт-Петербург</div>
+    </div>
+    <div class="footer-adept-col">
+      <a href="projects.html" class="footer-adept-link">Проекты</a>
+      <a href="team.html" class="footer-adept-link">Команда</a>
+    </div>
+  </footer>
+  <script src="js/main.js"></script>
+</body>
+</html>
